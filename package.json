@@ -39,7 +39,7 @@
     }
   },
   "scripts": {
-    "postinstall": "./git_submod_init.py ; npx jetify"
+    "postinstall": "./git_submod_init.py ; cd ../ ; npx jetify"
   },
   "author": "",
   "license": "Apache-2.0",
